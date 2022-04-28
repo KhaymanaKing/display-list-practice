@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+div.App {
+  background-color: #deeff4;
+}

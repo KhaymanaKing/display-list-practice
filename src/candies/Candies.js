@@ -1,4 +1,4 @@
-export const candy = [
+export const candies = [
   {
     name: 'Snickers',
     chocolate: 'yes',

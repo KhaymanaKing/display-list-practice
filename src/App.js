@@ -7,6 +7,8 @@ import './Candies/CandyCard.css';
 import { candies } from './Candies/Candies.js';
 import { characters } from './Dnd/Characters';
 import { lizardPeople } from './Lizard People/LizardPeople';
+import { cats } from './Cats/Cats';
+import CatList from './Cats/CatList';
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <CandyList candies={candies} />
       <CharacterList characters={characters}/>
       <LizardPeopleList lizardPeople={lizardPeople}/>
+      <CatList cats={cats}/>
     </div>
   );
 }

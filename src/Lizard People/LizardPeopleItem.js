@@ -1,7 +1,7 @@
 import React from 'react';
 import './LizardCard.css';
 
-export default function LizardPeopleItem({ name, picture, age, gender, eyeColor, friends, _id }) {
+export default function LizardPeopleItem({ name, picture, age, gender, eyeColor, friends, _id, long_lat }) {
   return (
     <div className='lizard-person-card'>
       <h1>Possible Lizard Person: 
@@ -17,7 +17,7 @@ export default function LizardPeopleItem({ name, picture, age, gender, eyeColor,
           <li key={friend}>{friend.name}
           </li>)}
       </ul>    
-        
+      <p>Location {long_lat.longitude} {long_lat.latitude}</p>  
         
     </div>
   );

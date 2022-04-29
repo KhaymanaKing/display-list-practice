@@ -1,10 +1,10 @@
-import CandyList from './Candies/CandyList';
+import CandyList from './candies/CandyList';
 import CharacterList from './Dnd/CharacterList';
 import LizardPeopleList from './Lizard People/LizardPeopleList';
 import './App.css';
-import './Candies/CandyCard.css';
+import './candies/CandyCard.css';
 // import your arrays here
-import { candies } from './Candies/Candies.js';
+import { candies } from './candies/Candies.js';
 import { characters } from './Dnd/Characters';
 import { lizardPeople } from './Lizard People/LizardPeople';
 import { cats } from './Cats/Cats';
